@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First G-House</title>
+    <link rel="stylesheet" href="./style.proj.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="./img/photo day2.jpg" alt="Background picture" />
+      <div class="overlay">
+        <div class="text">Welcome to Our Guesthouse</div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">First G-House</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="jumbotron text-center">
+      <h1>Welcome to Your Guesthouse</h1>
+      <p class="lead">A cozy retreat in the heart of Kalavan</p>
+      <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>
+            Welcome to First G-House! Thank you for considering our guesthouse
+            for your stay. Our cozy accommodations offer scenic views of the
+            surrounding area. Enjoy a homemade breakfast served daily and take
+            advantage of our free Wi-Fi access. Conveniently located near
+            attractions and amenities, our friendly staff is ready to assist you
+            during your visit. For reservations or inquiries, please contact us
+            at baroyan2525@gmail.com or call (374) 98 354-371.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <!-- Add an image of your guesthouse here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Our Services</h2>
+          <ul>
+            <li>
+              Escape to our serene guesthouse nestled amidst picturesque
+              surroundings. Our tranquil accommodations offer a perfect blend of
+              comfort and charm, providing you with a peaceful retreat from the
+              hustle and bustle of daily life. Wake up to the soothing sounds of
+              nature With attentive service and attention to detail, we strive
+              to ensure that your stay with us is nothing short of exceptional.
+              For reservations or inquiries, please contact us at
+              baroyan2525@gmail.com, or call (374) 98 354-371
+            </li>
+            <li>
+              Explore the Area on Two Wheels! Take advantage of our bicycle
+              rental service and discover the beauty of the surrounding area at
+              your own pace. Whether you're looking for a leisurely ride through
+              quaint villages or an adventurous journey through nature trails,
+              our well-maintained bicycles are perfect for exploring the area.
+              Ask our staff for recommendations on popular routes and must-see
+              attractions along the way.
+            </li>
+            <li>
+              3. Co-Creation Activity: Unleash Your Creativity! Join us for a
+              unique co-creation experience during your stay. Get inspired by
+              the beauty of our surroundings and let your creativity flow.
+              Whether it's painting, crafting, or storytelling, our co-creation
+              activity offers a space for guests to come together, share ideas,
+              and create something meaningful. No prior experience is necessary
+              – just bring your enthusiasm and willingness to explore your
+              creative side!
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <!-- Add images or icons representing your services here -->
+        </div>
+      </div>
+    </section>
+
+    
+          <!-- Add a contact form here -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Contact Us</h2>
+          <p>
+            Have a question or want to make a reservation? Get in touch with us
+            using the form below:
+          </p>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <!-- Add a map or additional contact information here if needed -->
+        </div>
+      </div>
+    </section>
+    <button id="language-toggle" class="btn btn-outline-primary">
+        Հայերեն
+      </button>
+      <!-- JavaScript for Language Toggle -->
+  
+      <a class="nav-link" href="#about" data-translate="About Us">About Us</a>
+  
+    <!-- Footer -->
+    <footer class="container-fluid text-center bg-light">
+      <p>&copy; 2024 Your Guesthouse. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
